@@ -1,0 +1,1029 @@
+
+ {% extends 'commonlayout.html' %}
+{% block body %}
+
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h" style="background-color: black" >Chandoos Restaurant</h1>
+          <h3 class="header-h">Menu List</h1>
+          <p class="header-p">Our mission is to ensure<br>
+nobody has a bad meal.
+             </p>
+        </div>
+
+        <div class="col-md-12  text-center" id="menu-flters">
+          <ul>
+            <!-- <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li> -->
+            <li><a class="filter" data-filter=".soup">Soups</a></li>
+            <li><a class="filter active" data-filter=".start">Starters</a></li>
+            <li><a class="filter" data-filter=".r">Indian Rice</a></li>
+            <li><a class="filter active" data-filter=".chin">Chinese</a></li>
+            <li><a class="filter" data-filter=".ib">Indian Breads</a></li>
+            <li><a class="filter active" data-filter=".ig">Indian Gravies</a></li>
+            <li><a class="filter" data-filter=".m">Mocktails</a></li>
+            <li><a class="filter active" data-filter=".ic">Ice Creams</a></li>
+            <li><a class="filter" data-filter=".f">Faloodas</a></li>
+             <li><a class="filter active" data-filter=".ms">Milk Shakes</a></li>
+
+          </ul>
+        </div>
+
+        <div id="menu-wrapper">
+
+          <div class="soup menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Hot & Sour Veg Soup</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">80/-</span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+          <div class="soup menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Hot & Sour Chicken Soup</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/-</span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="start menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".vs">Starters-Veg</a></li>
+            <li><a class="filter" data-filter=".nvs">Starters-Non Veg</a></li>
+            <li><a class="filter" data-filter=".tgnv">Tandoor/Grill-Non Veg</a></li>
+
+            
+          </ul>
+        </div>
+            
+          </div>
+
+          <div class="vs menu-restaurant">
+
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Gobi 65 (Dry)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/-</span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="vs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mushroom 65 (Dry)  </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/-</span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="vs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Gobi Manchurian (Dry/Gravy)  </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/-  </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="vs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Dragon Mushroom(Dry)  </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/-  </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="vs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chilly Paneer (Dry/Gravy)  </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/-  </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken 65 (Dry) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Drumstick (Dry) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Manchurian (Dry/Gravy) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Lollopop (Semi Dry) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">ChillynChicken (Dry/Gravy) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Pepper Fry (Dry) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nvs menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mutton Vepudu </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">200/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Tikka (Boneless) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Murg Malai Kabab (Boneless) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tandoori Chicken Half </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">220/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Tandoori Chicken Full </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">400/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+            Chicken Pepper Tandoori Half</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">220/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+            Chicken Pepper Tandoori Full</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">400/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Grilled Chicken Half</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">220/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="tgnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Grilled Chicken Full</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">400/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <!-- Starters completd
+ -->
+          <div class="r menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".v">Veg</a></li>
+            <li><a class="filter" data-filter=".nv">Non Veg</a></li>
+            
+
+            
+          </ul>
+        </div>
+        </div>
+
+          <div class="v menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Steam Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          
+
+           <div class="v menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Veg Pulao</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="v menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Cashewnut Pulao</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">170/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Biryani Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">110/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Egg Biriyani</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Chicken Biriyani</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">170/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Chicken 65 Biriyani</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">190/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Mutton Biriyani</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">200/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="nv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Mutton Vepudu biryani (Fry Biryani)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">170/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="chin menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".cn">Chinese Noodles</a></li>
+            <li><a class="filter" data-filter=".cv">Chinese Rice-Veg</a></li>
+            <li><a class="filter" data-filter=".cnv">Chinese Rice-Non Veg</a></li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="cn menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+            Veg Noodles</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">140/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cn menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Chicken Noodles</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">165/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Veg Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">140/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Schezwan Veg Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Mushroom Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Schezwan Mushroom Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+             Paneer Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+           Schezwan Paneer Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+           Egg Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Schezwan Egg Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Chicken Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">165/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="cnv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Schezwan Chicken Fried Rice</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">165/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Tandoori Roti (Wheat)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">20/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Butter Roti(Wheat)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">30/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Naan</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">20/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Butter Naan</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">30/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Aloo Paratha(Wheat) </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">50/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Gobi Paratha(Wheat)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">50/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ib menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">
+          Paneer Paratha(Wheat)</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">60/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ig menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".igv">Indian Gravies-Veg</a></li>
+            <li><a class="filter" data-filter=".ignv">Indian Gravies-Non Veg</a></li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Dal Fry
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">130/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Dal Tadka
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mix Veg Curry
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Kadai veg
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mushroom Masala
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Aloo Gobi Masala
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Gobi Capsicum Masala
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Green Peas Masala
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Paneer Butter Masala
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Kadai Paneer
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="igv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Matar Paneer
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+
+        <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Egg Gravy
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">160/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Curry
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Punjabi Chicken
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Butter Chicken Masala(Boneless)
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chicken Tikka Masala (Boneless)
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Hyderabadi Chicken masala (Spicy)
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">180/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mutton Curry
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">200/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mutton Chukka (Semi gravy,Spicy)
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">200/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="ignv menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mutton Rogan Josh
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">200/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="m menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mint Mojito
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">60/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="m menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Ginger Cola
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">60/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ic menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".ice">Ice Creams</a></li>
+            <li><a class="filter" data-filter=".pic">Premium Ice Creams</a></li>
+           
+
+            
+          </ul>
+        </div>
+      </div>
+
+        <div class="ice menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Vanilla
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ice menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Strwaberry
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ice menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pista
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ice menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Mango
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ice menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Chocolate
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">70/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="pic menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Belgium Dark Chocolate
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="pic menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Caramel nuts
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          
+
+          <div class="f menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Black Currant
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">110/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="f menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">pista
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">110/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="f menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Royal
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">150/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="ms menu-restaurant">
+            <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+            
+            <li><a class="filter" data-filter=".mi">Milk Shakes</a></li>
+            <li><a class="filter" data-filter=".pms">Premium Milk Shakes</a></li>
+            
+            
+          </ul>
+        </div>
+            
+          </div>
+
+           <div class="mi menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">vanilla
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="mi menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">chocolate
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+           <div class="mi menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">pista
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">100/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="pms menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">caramel
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">120/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          <div class="pms menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">oreo
+          </a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">120/- </span>
+            </span>
+            <span class="menu-subtitle"></span>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">Chandoos Restaurant</h4>
+            <address>Shar Road<br> Venkateshpuram<br> Beside Nilgiris SuperMarket <br> Sullurupeta-524121<br>Nellore Dist<br> Andhra Pradesh</address>
+            <div class="social-list">
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <p class="copyright clear-float">
+              © ChandoosRestaurant. All Rights Reserved
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+
+
+</html>
+{% endblock %}
